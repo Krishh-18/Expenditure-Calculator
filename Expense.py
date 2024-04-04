@@ -52,6 +52,7 @@ class ExpenditureCalculator:
                 message += f"{category}: ${amount:.2f}\n"
             message += f"Total: ${total_expenses:.2f}"
             print(message)
+            
 
 def main():
     root = tk.Tk()
