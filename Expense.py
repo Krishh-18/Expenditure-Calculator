@@ -14,9 +14,6 @@ class ExpenditureCalculator:
         self.entry_category = tk.Entry(master)
         self.entry_category.grid(row=0, column=1, padx=10, pady=5)
 
-
-
-
         self.label_amount = tk.Label(master, text="Expense Amount:")
         self.label_amount.grid(row=1, column=0, padx=10, pady=5)
         self.entry_amount = tk.Entry(master)
@@ -44,7 +41,7 @@ class ExpenditureCalculator:
         self.entry_amount.delete(0, tk.END)
 
         print("Expense added successfully!")
-        
+
         
 
     def view_total_expenses(self):
