@@ -8,7 +8,6 @@ class ExpenditureCalculator:
 
         self.expenses = {}
 
-
         self.label_category = tk.Label(master, text="Expense Category:")
         self.label_category.grid(row=0, column=0, padx=10, pady=5)
         self.entry_category = tk.Entry(master)
@@ -28,7 +27,7 @@ class ExpenditureCalculator:
 
         self.exit_button = tk.Button(master, text="Exit..", command=master.quit)
         self.exit_button.grid(row=4, column=0, columnspan=2, padx=10, pady=5, sticky="WE")
-        
+
 
     def add_expense(self):
         category = self.entry_category.get()
