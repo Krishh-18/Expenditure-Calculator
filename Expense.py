@@ -19,6 +19,7 @@ class ExpenditureCalculator:
         self.label_amount.grid(row=1, column=0, padx=10, pady=5)
         self.entry_amount = tk.Entry(master)
         self.entry_amount.grid(row=1, column=1, padx=10, pady=5)
+        
 
         self.add_button = tk.Button(master, text="Add Expense", command=self.add_expense)
         self.add_button.grid(row=2, column=0, columnspan=2, padx=10, pady=5, sticky="WE")
