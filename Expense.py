@@ -19,13 +19,14 @@ class ExpenditureCalculator:
         self.label_amount.grid(row=1, column=0, padx=10, pady=5)
         self.entry_amount = tk.Entry(master)
         self.entry_amount.grid(row=1, column=1, padx=10, pady=5)
-        
+
 
         self.add_button = tk.Button(master, text="Add Expense", command=self.add_expense)
         self.add_button.grid(row=2, column=0, columnspan=2, padx=10, pady=5, sticky="WE")
 
         self.total_button = tk.Button(master, text="View Total Expenses", command=self.view_total_expenses)
         self.total_button.grid(row=3, column=0, columnspan=2, padx=10, pady=5, sticky="WE")
+        
 
         self.exit_button = tk.Button(master, text="Exit..", command=master.quit)
         self.exit_button.grid(row=4, column=0, columnspan=2, padx=10, pady=5, sticky="WE")
@@ -67,3 +68,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
