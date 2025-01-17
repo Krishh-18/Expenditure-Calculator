@@ -59,6 +59,7 @@ class ExpenditureCalculator:
             message += f"Total: ${total_expenses:.2f}"
             print(message)
 
+
             
 
 def main():
