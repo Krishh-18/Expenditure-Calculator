@@ -46,7 +46,8 @@ class ExpenditureCalculator:
 
         print("Expense added successfully!")
 
-        
+#Starting
+
 
     def view_total_expenses(self):
         if not self.expenses:
