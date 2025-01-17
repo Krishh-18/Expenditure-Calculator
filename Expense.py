@@ -60,7 +60,8 @@ class ExpenditureCalculator:
             print(message)
 
 
-            
+
+
 
 def main():
     root = tk.Tk()
