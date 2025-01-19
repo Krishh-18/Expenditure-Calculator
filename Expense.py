@@ -8,6 +8,7 @@ class ExpenditureCalculator:
 
         self.expenses = {}
 
+
         
         
 
