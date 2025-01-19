@@ -7,6 +7,8 @@ class ExpenditureCalculator:
 
 
         self.expenses = {}
+
+        
         
 
         self.label_category = tk.Label(master, text="Expense Category:")
