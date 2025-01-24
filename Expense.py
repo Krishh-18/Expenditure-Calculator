@@ -36,6 +36,9 @@ class ExpenditureCalculator:
         self.exit_button.grid(row=4, column=0, columnspan=2, padx=10, pady=5, sticky="WE")
 
 
+
+
+
     def add_expense(self):
         category = self.entry_category.get()
         amount = float(self.entry_amount.get())
