@@ -44,6 +44,7 @@ class ExpenditureCalculator:
 
 
 
+
     def add_expense(self):
         category = self.entry_category.get()
         amount = float(self.entry_amount.get())
